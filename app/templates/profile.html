@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block main %}
+<section class="container">
+<div class="card">
+<div class="about">
+    <img id ="profile-img" src="{{url_for('static',filename='TAHJ.jpg')}}">
+    <h1>Tah J Gordon</h1>
+    <h6>@tahjalex</h6>
+    <p>Kingston, Jamaica</p>
+    <p>{{ ans }}</p>
+</div>
+
+<div class="yoo">
+    <p class="about-me">I am a smart and ambitious young man who loves web development and everything that
+    has to do with it. Contact me if you'd like to work together or you need a website to be built 
+    for your business or brand.</p>
+    <div class="follow-data">
+    <div>
+        <p class="bold">7</p>
+        <p class="space">Posts</p>
+    </div>
+    <div>
+        <p class="bold">250</p>
+        <p class="space">Following</p>
+    </div>
+    <div>
+        <p class="bold">100</p>
+        <p class="space">Followers</p>
+    </div>
+   
+    </div>
+   
+        <a href="" class="button">Follow</a>
+  
+    
+</div>
+
+
+</div>
+</section>
+{% endblock %}
